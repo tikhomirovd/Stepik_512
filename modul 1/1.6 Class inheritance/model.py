@@ -30,6 +30,7 @@ while n > 0:
     data[clazz].extend(ancestors)
     n = n - 1
 print(data)
+
 q = int(input())
 while q > 0:
     maybeAncestor, clazz = map(str, sys.stdin.readline().split())
